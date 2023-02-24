@@ -1,0 +1,15 @@
+{
+  "name": "Youtube video title expander",
+  "version": "1.0.0",
+  "description": "Get expanded name of the youtube video",
+  "manifest_version": 3,
+  "author": "Dolir",
+  "content_scripts": [
+    {
+      "matches": ["https://www.youtube.com/feed/subscriptions*"],
+      "js": ["script.js"],
+      "runAt": "document_end",
+      "css": ["main.css"]
+    }
+  ]
+}

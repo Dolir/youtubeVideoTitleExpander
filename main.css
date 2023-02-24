@@ -1,0 +1,11 @@
+.superStyle {
+    overflow: visible !important;
+    background: var(--yt-spec-base-background) !important;
+    position: absolute !important;
+    z-index: 99999 !important;
+    max-height: unset !important;
+    min-height: 40px !important;
+    white-space: break-spaces !important;
+    display: flex !important;
+    width: 100%;
+}
